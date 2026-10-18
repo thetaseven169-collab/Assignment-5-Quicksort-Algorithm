@@ -1,0 +1,32 @@
+Benchmark configuration: sizes=100,500,1000,2000,5000; distributions=random,sorted,reverse-sorted; repetitions=3; seed=2026
+
+quicksort              random          n=  100 median=0.000043s
+randomized_quicksort   random          n=  100 median=0.000069s
+quicksort              sorted          n=  100 median=0.000259s
+randomized_quicksort   sorted          n=  100 median=0.000058s
+quicksort              reverse-sorted  n=  100 median=0.000205s
+randomized_quicksort   reverse-sorted  n=  100 median=0.000056s
+quicksort              random          n=  500 median=0.000342s
+randomized_quicksort   random          n=  500 median=0.000542s
+quicksort              sorted          n=  500 median=0.008076s
+randomized_quicksort   sorted          n=  500 median=0.000419s
+quicksort              reverse-sorted  n=  500 median=0.005617s
+randomized_quicksort   reverse-sorted  n=  500 median=0.000470s
+quicksort              random          n= 1000 median=0.000770s
+randomized_quicksort   random          n= 1000 median=0.001040s
+quicksort              sorted          n= 1000 median=0.034127s
+randomized_quicksort   sorted          n= 1000 median=0.000997s
+quicksort              reverse-sorted  n= 1000 median=0.028763s
+randomized_quicksort   reverse-sorted  n= 1000 median=0.000997s
+quicksort              random          n= 2000 median=0.001876s
+randomized_quicksort   random          n= 2000 median=0.002161s
+quicksort              sorted          n= 2000 median=0.153090s
+randomized_quicksort   sorted          n= 2000 median=0.002422s
+quicksort              reverse-sorted  n= 2000 median=0.116629s
+randomized_quicksort   reverse-sorted  n= 2000 median=0.002156s
+quicksort              random          n= 5000 median=0.005407s
+randomized_quicksort   random          n= 5000 median=0.005867s
+quicksort              sorted          n= 5000 median=0.999676s
+randomized_quicksort   sorted          n= 5000 median=0.006783s
+quicksort              reverse-sorted  n= 5000 median=0.693240s
+randomized_quicksort   reverse-sorted  n= 5000 median=0.006377s

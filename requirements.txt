@@ -1,0 +1,4 @@
+# Core algorithms and benchmark require only the Python standard library.
+# pandas and matplotlib are optional, used only to generate the report plot.
+pandas>=2.0
+matplotlib>=3.7
